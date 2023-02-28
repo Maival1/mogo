@@ -1,50 +1,58 @@
+
 .banner {
   margin-top: 65px;
   text-align: center;
+
   &__uptitle {
     font-family: 'Kaushan Script';
     font-weight: 400;
     font-size: 47px;
-    color: #FFFFFF;
+    color: $color-base;
   }
+
   &__title {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 115px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $color-base;
   }
+
   &__line {
     width: 170px;
     height: 2px;
-    background-color: #FFFFFF;
+    background-color: $color-base;
     margin: 0 auto;
     margin-top: 27px;
     margin-bottom: 80px;
   }
+
   &__link {
     padding: 1.2rem 6rem;
-    border: 3px solid #FFFFFF;
+    border: 3px solid $color-base;
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $color-base;
     text-decoration: none;
     text-transform: uppercase;
   }
+
   &__slide {
     margin-top: 90px;
     display: flex;
     gap: 30px;
   }
+
   &__step {
     text-align: start;
     font-weight: 400;
     font-size: 14px;
-    border-top: 4px solid #FFFFFF;
-    color: #FFFFFF;
+    border-top: 4px solid $color-base;
+    color: $color-base;
     padding: 1.132rem 0;
   }
+
   &__number {
     font-size: 24px;
     font-weight: 700;

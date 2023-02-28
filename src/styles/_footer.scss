@@ -2,34 +2,39 @@
   &__row {
     display: flex;
   }
+
   &__logo {
-    color: #C6CBCD;
+    color: $color-gray;
     font-size: 65px;
     font-weight: 700;
   }
+
   &__text {
     font-weight: 400;
     font-size: 18px;
-    color: #C6CBCD;
+    color: $color-gray;
   }
+
   &__social-header {
     font-weight: 400;
     font-size: 36px;
     color: #2D3033;
     text-transform: uppercase;
   }
+
   &__social-content {
     font-style: italic;
     font-weight: 400;
     font-size: 13px;
-    color: #C6CBCD;
+    color: $color-gray;
   }
+
   &__social-cl {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
 
     font-size: 18px;
-    color: #95e1d3;
+    color: $color-primary;
   }
 }
