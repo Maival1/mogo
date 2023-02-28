@@ -1,0 +1,42 @@
+.story {
+  &__card {
+    display: flex;
+    gap: 30px;
+  }
+  &__col-str {
+    background-color: #95E1D3;
+  }
+  &__col {
+
+    position: relative;
+  }
+  &__info {
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+    transition: opacity 0.1s linear;
+  }
+  &__item {
+    display: inline-block;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+    transition: transform 0.2s linear;
+    &:hover {
+      transform: translate3d(-16px, -16px, 0);
+    }
+    &:hover .story__img {
+      opacity: 0.3;
+    }
+    &:hover .story__info {
+      opacity: 1;
+    }
+  }
+}

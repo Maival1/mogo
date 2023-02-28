@@ -1,0 +1,25 @@
+.social {
+  display: flex;
+  justify-content: center;
+  &__item {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #fce38a;
+    border-right: 1px solid #f38181;
+
+    font-size: 30px;
+    text-decoration: none;
+    color: #f38181;
+    line-height: 1;
+
+    transition: background 0.1s linear, color 0.1s linear;
+    &:hover {
+      background-color: #f38181;
+      color: aliceblue;
+    }
+    &:last-child {
+      border-right: 0;
+    }
+  }
+}

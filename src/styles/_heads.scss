@@ -1,0 +1,24 @@
+.heads {
+  margin-top: 42px;
+  text-align: center;
+  &__uptitle {
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 30px;
+  }
+  &__title {
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  &__line {
+    margin: 0 auto;
+    width: 170px;
+    height: 4px;
+    background-color: #F38281;
+  }
+  &___subtitle {
+    font-weight: 400;
+    font-size: 18px;
+  }
+}

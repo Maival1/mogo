@@ -1,0 +1,52 @@
+.banner {
+  margin-top: 65px;
+  text-align: center;
+  &__uptitle {
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 47px;
+    color: #FFFFFF;
+  }
+  &__title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 115px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__line {
+    width: 170px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 80px;
+  }
+  &__link {
+    padding: 1.2rem 6rem;
+    border: 3px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  &__slide {
+    margin-top: 90px;
+    display: flex;
+    gap: 30px;
+  }
+  &__step {
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    border-top: 4px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 1.132rem 0;
+  }
+  &__number {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,60 @@
+.work {
+  &__row {
+    display: grid;
+    grid-template-areas:
+      "first second bg last"
+      "firstdown seconddown bg end";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  &__item-first {
+    grid-area: first;
+  }
+  &__item-second {
+    grid-area: second;
+  }
+  &__item-bg {
+    grid-area: bg;
+  }
+  &__item-last {
+    grid-area: last;
+  }
+  &__item-firstdown {
+    grid-area: firstdown;
+  }
+  &__item-seconddown {
+    grid-area: seconddown;
+  }
+  &__item-end {
+    grid-area: end;
+  }
+  &__item {
+    position: relative;
+    &:hover {
+      display: inline-block;
+      background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+      transition: transform 0.2s linear;
+    }
+    &:hover .work__img {
+      opacity: 0.3;
+    }
+    &:hover .work__info {
+      opacity: 1;
+    }
+  }
+  &__info {
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+    transition: opacity 0.1s linear;
+  }
+}
