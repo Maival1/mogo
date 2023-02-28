@@ -51,7 +51,7 @@ br {
   font-weight: 600;
   font-size: 14px;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .nav__link:hover:after {
@@ -116,6 +116,10 @@ br {
   text-decoration: none;
   text-transform: uppercase;
 }
+.banner__link:hover {
+  color: #E4BE8D;
+  background-color: #ffffff;
+}
 .banner__slide {
   margin-top: 90px;
   display: flex;
@@ -169,7 +173,7 @@ br {
   gap: 30px;
 }
 .story__col-str {
-  background-color: #95E1D3;
+  background-color: #95e1d3;
 }
 .story__col {
   position: relative;
@@ -274,7 +278,7 @@ br {
 }
 .team__col {
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .team__col:hover {
   background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
@@ -421,7 +425,7 @@ br {
 .blog__date {
   padding: 10px 20px;
   background-color: #95e1d3;
-  color: #fff;
+  color: #ffffff;
   font-size: 15px;
   font-style: italic;
   font-weight: 300;
@@ -537,7 +541,7 @@ br {
   cursor: pointer;
   font-size: 14px;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   line-height: 1.1;
   transition: background 0.2 linear;
 }

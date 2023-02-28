@@ -36,6 +36,10 @@
     color: $color-base;
     text-decoration: none;
     text-transform: uppercase;
+    &:hover {
+      color: #E4BE8D;
+      background-color: $color-base;
+    }
   }
 
   &__slide {
